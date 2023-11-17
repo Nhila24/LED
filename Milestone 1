@@ -1,11 +1,24 @@
 code for blinky application for nucleo F446RE
 
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_S, 1);
-HAL_Delay(1000);
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_S, 0);
-HAL_Delay(1000);
+*in main.c file
+
+ /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
+	  HAL_Delay(1000);
 
 
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
 
 
 
