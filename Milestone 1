@@ -1,6 +1,8 @@
 code for blinky application for nucleo F446RE
 
-*in main.c file
+First of all open STM32cubeIDE and chose Nucleo F446RE board. 
+After choosing the board In STM32CubeIDE from the Project Explorer tab, open the main.c file, 
+in Src folder and add the adequate functions for the LED blinking, using HAL functions
 
  /* Infinite loop */
   /* USER CODE BEGIN WHILE */
