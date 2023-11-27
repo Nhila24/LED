@@ -8,3 +8,6 @@ Add the code given under the infinite loop.
 After adding the code connect the F446RE board to  PC which will automatically update the board and run the program which will upload the code to the board.After restarting board we can see a blinking green LED on the board.
 The delay can be adjusted to the timing we wanted it to blink.As per the code given above the LED will blink every second(1000ms).
 ![image](https://github.com/Nhila24/LED/assets/150771903/ff6705eb-02eb-4246-bcb2-2f02acdfe5d5)
+
+
+Link to video:https://drive.google.com/file/d/1q5esRHA0ay1_Q4BqHPrXVY7x8BDx-f17/view?usp=drive_link
